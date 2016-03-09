@@ -1,0 +1,26 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly MyClrAddIn, Version=1.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly Autodesk.Inventor.Interop, Version=20.0.0.0, Culture=neutral, PublicKeyToken=d84147f8b4276564: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class MyClrAddIn.StandardAddInServer: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    Inventor.ApplicationAddInServer
+  Properties:
+    System.Object Automation 'get ' : 
+  Methods:
+    Activate(ApplicationAddInSite, Boolean(HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Deactivate(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    ExecuteCommand(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    get_Automation(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
